@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Front-end
+
+
+# dependencies
+/contacts/node_modules
+/contacts/.pnp
+/contacts/.pnp.js
+
+# testing
+/contacts/coverage
+
+# next.js
+/contacts/.next/
+/contacts/out/
+
+# production
+/contacts/build
+
+# misc
+/contacts/.DS_Store
+/contacts/*.pem
+
+# debug
+/contacts/npm-debug.log*
+/contacts/yarn-debug.log*
+/contacts/yarn-error.log*
+/contacts/.pnpm-debug.log*
+
+# local env files
+/contacts/.env*.local
+
+# vercel
+/contacts/.vercel
+
+
+
+# Back-end
+/laravel-contacts-app/node_modules
+/laravel-contacts-app/public/hot
+/laravel-contacts-app/public/storage
+/laravel-contacts-app/storage/*.key
+/laravel-contacts-app/vendor
+/laravel-contacts-app/.env
+/laravel-contacts-app/.env.backup
+/laravel-contacts-app/.phpunit.result.cache
+/laravel-contacts-app/docker-compose.override.yml
+/laravel-contacts-app/Homestead.json
+/laravel-contacts-app/Homestead.yaml
+/laravel-contacts-app/npm-debug.log
+/laravel-contacts-app/yarn-error.log
+/laravel-contacts-app/.idea
+/laravel-contacts-app/.vscode
