@@ -53,6 +53,7 @@ const Add = () => {
                     <label htmlFor="email" className="form-label">
                         Email <sup className='text-danger fw-bolder'>*</sup>
                     </label>
+                    {/* If the type of the input removed, the validation from backend will cover the error */}
                     <input type="email" className="form-control" id="email" name="email" required
                         value={formData.email} onChange={handleChange}
                     />
@@ -62,6 +63,7 @@ const Add = () => {
                     <label htmlFor="phone_number" className="form-label">
                         Phone Number <sup className='text-danger fw-bolder'>*</sup>
                     </label>
+                    {/* If the type of the input removed, the validation from backend will cover the error */}
                     <input type="number" className="form-control" id="phone_number" name="phone_number" required
                         value={formData.phone_number} onChange={handleChange}
                     />
